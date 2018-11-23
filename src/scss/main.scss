@@ -1,2 +1,109 @@
 @import 'libs';
+
+body {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+	margin: 0 auto;
+	background: url(../img/bg.jpg);
+	background-position: top center;
+	background-attachment: fixed;
+	font-weight: 300;
+}
+
+p{}
+
+a{
+	-webkit-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+	color: #fff;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.fab{
+	font-size: 32px;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 81px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Amatic SC', cursive;
+}
+b{
+	font-weight: 700;
+}
+h3{
+	font-family: 'Amatic SC', cursive;
+	font-size: 68px;
+	font-weight: 700;
+}
+
+h4{
+	font-family: 'Amatic SC', cursive;
+	font-size: 58px;
+	font-weight: bold;
+}
+h5{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.text-center {
+	text-align: center!important;
+}
+
+.text-right {
+	text-align: right!important;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.wh-button {
+	color:#fff;
+	border:3px solid #fff;
+	padding: 12px 45px;
+	text-align: center;
+	font-weight:bold;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+.wh-button:hover {
+	border: 3px solid #8770ab;
+	background: #8770ab;
+}
+
+.ye-buttton {
+	border: 3px solid #fff;
+	border-radius: 30px;
+	background: #fdc10f;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 16px;
+	color:#fff;
+	padding: 12px 30px;
+	display: inline-block;
+}
+
+.ye-buttton:hover {
+	background: #8770ab;
+}
+
+.wh-button, .ye-buttton {
+	margin:10px auto;
+	display: inline-block;
+}
+
 @import 'index';
