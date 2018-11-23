@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" appversion="5.2.2" apprev="15983">
+  <panorama hideabout="1" id="node2">
+    <input tile4url="images/2_o_4.jpg" prev4url="images/2_o_preview_4.jpg" tile2url="images/2_o_2.jpg" prev2url="images/2_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/2_o_0.jpg" prev0url="images/2_o_preview_0.jpg" tile5url="images/2_o_5.jpg" prev5url="images/2_o_preview_5.jpg" tile3url="images/2_o_3.jpg" prev3url="images/2_o_preview_3.jpg" tilesize="1700" tile1url="images/2_o_1.jpg" prev1url="images/2_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="-60" fovmode="0">
+      <start projection="4" fov="70" pan="-97.13" tilt="-4.15"/>
+      <flyin projection="4" fov="70" pan="-102.64" tilt="-8.02"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.81732927547387" latitude="50.905340408912245" author="" copyright="" title="" tags="панорамы" datetime="29.08.2018 16:57" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="131.0/-10.1/70.0" url="{node1}" skinid="ht_node" title="" pan="130.53" id="Point01" description="" tilt="-16.46"/>
+      <hotspot target="35.8/-6.7/70.0" url="{node6}" skinid="ht_node" title="" pan="101.25" id="Point02" description="" tilt="-5.34"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node1">
+    <input tile4url="images/1_o_4.jpg" prev4url="images/1_o_preview_4.jpg" tile2url="images/1_o_2.jpg" prev2url="images/1_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/1_o_0.jpg" prev0url="images/1_o_preview_0.jpg" tile5url="images/1_o_5.jpg" prev5url="images/1_o_preview_5.jpg" tile3url="images/1_o_3.jpg" prev3url="images/1_o_preview_3.jpg" tilesize="1700" tile1url="images/1_o_1.jpg" prev1url="images/1_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="182" fovmode="0">
+      <start projection="4" fov="70" pan="128.79" tilt="-29.46"/>
+      <flyin projection="4" fov="70" pan="117.97" tilt="-28.01"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.81741309488052" latitude="50.90531540432024" author="" copyright="" title="" tags="панорамы" datetime="29.08.2018 16:31" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="22.5/-5.8/70.0" url="{node2}" skinid="ht_node" title="" pan="-47.38" id="Point01" description="" tilt="-11.45"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input tile4url="images/3_o_4.jpg" prev4url="images/3_o_preview_4.jpg" tile2url="images/3_o_2.jpg" prev2url="images/3_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/3_o_0.jpg" prev0url="images/3_o_preview_0.jpg" tile5url="images/3_o_5.jpg" prev5url="images/3_o_preview_5.jpg" tile3url="images/3_o_3.jpg" prev3url="images/3_o_preview_3.jpg" tilesize="1700" tile1url="images/3_o_1.jpg" prev1url="images/3_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="-53" fovmode="0">
+      <start projection="4" fov="70" pan="-117.35" tilt="-37.39"/>
+      <flyin projection="4" fov="70" pan="-102.81" tilt="-36.09"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.81735309325404" latitude="50.90528430858769" author="" copyright="" title="" tags="панорамы" datetime="29.10.2018 22:47" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="" url="{node6}" skinid="ht_node" title="" pan="114.57" id="Point01" description="" tilt="0.07"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node4">
+    <input tile4url="images/4_o_4.jpg" prev4url="images/4_o_preview_4.jpg" tile2url="images/4_o_2.jpg" prev2url="images/4_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/4_o_0.jpg" prev0url="images/4_o_preview_0.jpg" tile5url="images/4_o_5.jpg" prev5url="images/4_o_preview_5.jpg" tile3url="images/4_o_3.jpg" prev3url="images/4_o_preview_3.jpg" tilesize="1700" tile1url="images/4_o_1.jpg" prev1url="images/4_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="-40" fovmode="0">
+      <start projection="4" fov="70" pan="-120.08" tilt="-30.89"/>
+      <flyin projection="4" fov="70" pan="-20.86" tilt="-24.15"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.81743427976221" latitude="50.90524693738849" author="" copyright="" title="" tags="панорамы" datetime="29.08.2018 17:30" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="-38.1/-9.9/70.0" url="{node6}" skinid="ht_node" title="" pan="45.62" id="Point01" description="" tilt="-13.06"/>
+      <hotspot target="-101.6/-6.5/70.0" url="{node5}" skinid="ht_node" title="" pan="138.37" id="Point02" description="" tilt="-21.02"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node5">
+    <input tile4url="images/5_o_4.jpg" prev4url="images/5_o_preview_4.jpg" tile2url="images/5_o_2.jpg" prev2url="images/5_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/5_o_0.jpg" prev0url="images/5_o_preview_0.jpg" tile5url="images/5_o_5.jpg" prev5url="images/5_o_preview_5.jpg" tile3url="images/5_o_3.jpg" prev3url="images/5_o_preview_3.jpg" tilesize="1700" tile1url="images/5_o_1.jpg" prev1url="images/5_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="-257" fovmode="0">
+      <start projection="4" fov="70" pan="-64.93" tilt="-19.65"/>
+      <flyin projection="4" fov="70" pan="-167.53" tilt="-22.85"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.81738309325408" latitude="50.90518993735534" author="" copyright="" title="" tags="панорамы" datetime="29.08.2018 17:41" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="-73.5/-3.0/70.5" url="{node6}" skinid="ht_node" title="" pan="153.78" id="Point01" description="" tilt="-9.14"/>
+      <hotspot target="-48.2/-10.8/70.0" url="{node4}" skinid="ht_node" title="" pan="82" id="Point02" description="" tilt="-15.28"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input tile4url="images/6_o_4.jpg" prev4url="images/6_o_preview_4.jpg" tile2url="images/6_o_2.jpg" prev2url="images/6_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/6_o_0.jpg" prev0url="images/6_o_preview_0.jpg" tile5url="images/6_o_5.jpg" prev5url="images/6_o_preview_5.jpg" tile3url="images/6_o_3.jpg" prev3url="images/6_o_preview_3.jpg" tilesize="1700" tile1url="images/6_o_1.jpg" prev1url="images/6_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="-110" fovmode="0">
+      <start projection="4" fov="70" pan="-15.64" tilt="-10.04"/>
+      <flyin projection="4" fov="70" pan="-14.16" tilt="-16.06"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.81724662698366" latitude="50.90524362879946" author="" copyright="" title="" tags="панорамы" datetime="29.08.2018 18:19" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="" url="{node7}" skinid="ht_node" title="" pan="-47.58" id="Point01" description="" tilt="-7.39"/>
+      <hotspot target="-70.8/-18.2/70.0" url="{node3}" skinid="ht_node" title="" pan="-106.37" id="Point02" description="" tilt="-5.15"/>
+      <hotspot target="-94.1/-13.8/70.0" url="{node2}" skinid="ht_node" title="" pan="-92.72" id="Point03" description="" tilt="-4.59"/>
+      <hotspot target="-42.5/-14.7/70.0" url="{node5}" skinid="ht_node" title="" pan="129.73" id="Point04" description="" tilt="-9.42"/>
+      <hotspot target="-128.2/-8.2/70.0" url="{node4}" skinid="ht_node" title="" pan="157.67" id="Point05" description="" tilt="-7.48"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node7">
+    <input tile4url="images/7_o_4.jpg" prev4url="images/7_o_preview_4.jpg" tile2url="images/7_o_2.jpg" prev2url="images/7_o_preview_2.jpg" levelingroll="0" levelingpitch="0" tile0url="images/7_o_0.jpg" prev0url="images/7_o_preview_0.jpg" tile5url="images/7_o_5.jpg" prev5url="images/7_o_preview_5.jpg" tile3url="images/7_o_3.jpg" prev3url="images/7_o_preview_3.jpg" tilesize="1700" tile1url="images/7_o_1.jpg" prev1url="images/7_o_preview_1.jpg" tilescale="1.005882">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="-265" fovmode="0">
+      <start projection="4" fov="70" pan="116.24" tilt="-21.84"/>
+      <flyin projection="4" fov="70" pan="126.52" tilt="-21.99"/>
+      <min fov="36" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="65" pan="360" fovfisheye="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata comment="" longitude="34.817157495700826" latitude="50.90527623434992" author="" copyright="" title="" tags="панорамы" datetime="29.08.2018 18:43" source="" info="" description="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" border="1" height="20" textalpha="1" backgroundalpha="1" enabled="1" background="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="-116.8/-2.4/70.0" url="{node6}" skinid="ht_node" title="" pan="19.45" id="Point01" description="" tilt="-12.65"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve" zoomin="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedkeyboard="0" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8">
+      <menulink url="http://zavgorodniy.net" text="Розробив 3Д тур www.zavgorodniy.net"/>
+    </control>
+  </panorama>
+</tour>
