@@ -17,4 +17,17 @@
   .information-block {
     margin-top: 60px;
   }
+  .text-block {
+    h3, h4, h5 {
+      margin-top: 60px;
+    }
+  }
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    li {
+      background: url("../img/circle.png") no-repeat left center;
+      padding-left: 19px;
+    }
+  }
 }
