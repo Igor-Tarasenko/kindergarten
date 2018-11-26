@@ -94,6 +94,9 @@ nav ul li a:hover{
 .menu-item-has-children .sub-menu .second-menu {
   display: inline-block;
   margin: 0 50px;
+  .sub-menu {
+    left: -27px;
+  }
 }
 
 .menu-item-has-children .sub-menu .second-menu:first-child,
@@ -133,6 +136,10 @@ nav ul li a:hover{
 .menu-item-has-children:hover > .sub-menu {
   visibility: visible;
   opacity: 1;
+  .second-menu .menu-item-has-children:hover > .sub-menu {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .menu-item-has-children a::after {
@@ -468,7 +475,7 @@ footer {
     font-size: 14px;
   }
   #header {
-    padding-bottom: 230px;
+    background: #66bfba;
   }
   .menu-item-has-children {
     margin-top: -5px;
@@ -502,6 +509,11 @@ footer {
     display: block;
     visibility: visible;
     opacity: 1;
+    .second-menu .menu-item-has-children:hover > .sub-menu {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+    }
   }
   .menu-item-has-children .sub-menu .second-menu {
     margin: 15px 0;
