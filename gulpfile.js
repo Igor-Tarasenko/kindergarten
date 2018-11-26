@@ -109,7 +109,7 @@ gulp.task('watch', function() {
 // Browser Sync
 gulp.task('browsersync', function() {
     browsersync.init({
-        proxy: 'sadok/temp'
+        proxy: 'kindergarten/temp'
     });
 });
 
