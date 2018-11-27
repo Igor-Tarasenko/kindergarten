@@ -26,6 +26,9 @@
   width:100%;
   margin-top: -33px;
   margin-bottom: 50px;
+  .fa-facebook, .fa-instagram, .fa-viber {
+    color: #8770ab;
+  }
 }
 
 .main-menu {
@@ -190,7 +193,13 @@ nav ul li a:hover{
   margin-top: -90px;
 }
 
-.cont_afisha img {
+.cont_afisha-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cont_afisha-img_button {
   margin-top: 54px;
 }
 
