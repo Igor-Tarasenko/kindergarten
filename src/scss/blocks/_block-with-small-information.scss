@@ -1,0 +1,112 @@
+.block-with-small-information {
+	background: #ffffff;
+	border-radius: 15px;
+	padding: 30px 15px;
+	position: sticky;
+	top: 0;
+	.popular {
+		text-align: center;
+	}
+	h3 {
+		font-size: 43px;
+		color: #8770ab;
+		text-align: center;
+	}
+	ul {
+		list-style-type: none;
+		text-align: left;
+		margin-bottom: 25px;
+		li {
+			background: url("../img/star.png") no-repeat;
+			padding-left: 38px;
+			color: #333333;
+			margin-top: 15px;
+			a {
+				color: inherit;
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+.vi-btn {
+	display: inline-block;
+	margin: 0 auto;
+	background: #8770ab;
+	color: #ffffff;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 20px;
+	padding: 12px 32px;
+	font-weight: 600;
+}
+.poster {
+	margin: 40px 0;
+	text-align: center;
+	h3 {
+		font-size: 33px;
+		color: #333333;
+		text-align: left;
+		line-height: 38px;
+		margin-top: -5px;
+		margin-bottom: 18px;
+	}
+}
+.poster_description {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	p {
+		font-size: 43px;
+		color: #8770ab;
+		font-family: 'Amatic SC', cursive;
+		font-weight: 700;
+		&:first-child {
+			margin-right: 15px;
+		}
+	}
+}
+.poster-text {
+	padding: 0;
+}
+.vi-btn_underline {
+	color: #8770ab;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	&:hover {
+		color: #8770ab;
+		text-decoration: underline;
+	}
+}
+.one-poster {
+	margin-bottom: 25px;
+	text-align: left;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.viber-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+	p {
+		margin-left: 15px;
+		margin-bottom: 0;
+	}
+	.fa-viber {
+		color: #8770ab;
+	}
+}
+.instagram-block, .facebook-block {
+	margin-bottom: 40px;
+	.instagram-vidjet, .facebook-vidjet {
+		margin-top: 15px;
+		min-height: 50px;
+	}
+}
