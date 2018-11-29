@@ -1,0 +1,185 @@
+.occupation-block {
+	background: #ffffff;
+	border-radius: 15px;
+	.bookmarks-block {
+		padding: 0;
+	}
+	.bookmarks {
+		padding: 0;
+		width: 100%;
+		display: flex;
+	}
+	.specifications, .schedule, .reviews {
+		padding: 0;
+		text-align: center;
+		border-top: 14px solid transparent;
+		transition: .3s ease;
+		border-top-left-radius: 15px;
+		width: 100%;
+		button {
+			font-size: 18px;
+			font-weight: 600;
+			color: #ffffff;
+			border-top-left-radius: 15px;
+			padding: 31px 0;
+			text-transform: uppercase;
+			margin-bottom: 0;
+			border: none;
+			outline: none;
+			width: 100%;
+			cursor: pointer;
+		}
+	}
+	.specifications {
+		position: relative;
+		border-top: 14px solid #fe6e1f;
+		z-index: 0;
+		button {
+			border-top-left-radius: 0;
+			background: #fe6e1f;
+		}
+	}
+	.schedule {
+		position: relative;
+		z-index: 1;
+		margin-left: -25px;
+		button {
+			background: #438fc1;
+		}
+	}
+	.reviews {
+		position: relative;
+		z-index: 2;
+		margin-left: -25px;
+		button {
+			background: #66bfba;
+		}
+	}
+	.suitable, .age, .teacher-description {
+		margin-top: 40px;
+		p {
+			font-size: 18px;
+			font-weight: 600;
+			text-transform: uppercase;
+			color: #333333;
+			margin-bottom: 0;
+		}
+	}
+	.suitable, .age {
+		display: flex;
+		align-items: center;
+		p {
+			&:first-child {
+				margin-right: 30px;
+			}
+		}
+	}
+	.age p {
+		&:last-child {
+			color: #438fc1;
+			font-size: 65px;
+			font-family: 'Amatic SC', cursive;
+		}
+	}
+	.card {
+		padding: 0 30px;
+		&:first-child {
+			padding: 0;
+		}
+	}
+	.teacher-description {
+	}
+	.teacher {
+		display: flex;
+		align-items: center;
+		margin-top: 20px;
+		img {
+			max-width: 90px;
+			max-height: 90px;
+			border-radius: 50%;
+			margin-right: 15px;
+		}
+		p {
+			margin-bottom: 0;
+		}
+	}
+	.form-block {
+		margin-top: 30px;
+		p {
+			text-align: center;
+		}
+	}
+	h2 {
+		font-size: 72px;
+		color: #8770ab;
+		text-align: center;
+	}
+	.form-group {
+		margin-top: 20px;
+		input {
+			width: 100%;
+			background: #ffffff;
+			color: #3f3f3f;
+			border: 3px solid #fed451;
+			padding: 17px 0 17px 10px;
+			border-radius: 12px;
+		}
+		.orange-btn {
+			width: 100%;
+			border-radius: 32px;
+			padding: 14px 0;
+		}
+	}
+	.watched {
+		margin-top: 30px;
+		padding-bottom: 25px;
+	}
+	.watched-earlie {
+		margin-top: 15px;
+		img {
+			width: 100%;
+			border-radius: 15px;
+			margin-bottom: 10px;
+		}
+		h3 {
+			font-size: 32px;
+			margin-bottom: 10px;
+		}
+		.ye-buttton {
+			margin: 0 auto;
+		}
+	}
+}
+.orange-btn {
+	background: #ff7752;
+	color: #ffffff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+.occupation-block-info {
+	padding: 45px 30px;
+	img {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+}
+.arrow-block {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 50px;
+	padding: 10px;
+	background: #ffffff;
+	p {
+		color: #333333;
+		margin-bottom: 0;
+	}
+}
+.hidden-block {
+	position: relative;
+}

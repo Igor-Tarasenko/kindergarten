@@ -155,7 +155,7 @@
 		z-index: 10;
 		padding-right: 0;
 	}
-	.all-blogs .arrow-block {
+	.arrow-block {
 		display: block;
 	}
 	.all-blogs .one-block_text h3 {
@@ -205,8 +205,37 @@
 			font-size: 41px;
 		}
 	}
+	.occupation-block .specifications button,
+	.occupation-block .schedule button,
+	.occupation-block .reviews button {
+		font-size: 14px;
+		padding: 20px 0;
+	}
+	.occupation-block .specifications button {
+		text-align: left;
+		padding-left: 15px;
+	}
+	.occupation-block .suitable p,
+	.occupation-block .age p,
+	.occupation-block .teacher-description p {
+		font-size: 14px;
+	}
+	.occupation-block .age p:last-child {
+		font-size: 50px;
+	}
+	.orange-btn {
+		font-size: 16px;
+	}
+	.occupation-block .form-group input {
+		padding: 15px 0 15px 10px;
+		font-size: 12px;
+	}
+	.occupation-block h2 {
+		font-size: 60px;
+	}
 }
 @media (min-width:320px) and (max-width:543px) {
+
 	.cont_afisha h2 {
 		text-align: left !important;
 		font-size: 38px;
@@ -247,7 +276,7 @@
 		padding-top: 30px;
 	}
 	h1 {
-		font-size: 60px;
+		font-size: 50px;
 	}
 	#blue .jq-selectbox {
 		margin: 8px 0px;
@@ -263,5 +292,50 @@
 	}
 	.all-blogs .one-block_text h3 {
 		font-size: 34px;
+	}
+}
+@media (max-width: 503px) {
+	.occupation-block .specifications button {
+		padding-left: 10px;
+	}
+}
+@media (max-width: 481px) {
+	.occupation-block .specifications button,
+	.occupation-block .schedule button,
+	.occupation-block .reviews button {
+		font-size: 12px;
+	}
+}
+@media (max-width: 430px) {
+	.occupation-block .specifications button {
+		padding-left: 5px;
+	}
+}
+@media (max-width: 407px) {
+	.occupation-block .schedule {
+		margin-left: -10px;
+	}
+	.occupation-block .reviews {
+		margin-left: -10px;
+	}
+}
+@media (max-width: 393px) {
+	.occupation-block .specifications button, .occupation-block .schedule button, .occupation-block .reviews button {
+		font-size: 10px;
+	}
+	.occupation-block h2 {
+		font-size: 45px;
+	}
+}
+@media (max-width: 340px) {
+	.occupation-block .schedule {
+		margin-left: 0;
+	}
+	.occupation-block .reviews {
+		margin-left: 0;
+	}
+	.occupation-block .specifications button {
+		padding-left: 0;
+		text-align: center;
 	}
 }
