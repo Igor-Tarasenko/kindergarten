@@ -26,6 +26,9 @@
   width:100%;
   margin-top: -33px;
   margin-bottom: 50px;
+  .fa-facebook, .fa-instagram, .fa-viber {
+    color: #8770ab;
+  }
 }
 
 .main-menu {
@@ -190,7 +193,13 @@ nav ul li a:hover{
   margin-top: -90px;
 }
 
-.cont_afisha img {
+.cont_afisha-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cont_afisha-img_button {
   margin-top: 54px;
 }
 
@@ -436,226 +445,4 @@ footer {
   vertical-align: center;
   padding:18px 0px 26px 0px;
   color:#fff;
-}
-@media (max-width: 1200px) {
-  .navbar-nav {
-    margin-top: 5px;
-  }
-  nav ul li {
-    font-size: 12px;
-    margin-right: 8px;
-  }
-  .menu-item-has-children {
-    margin-top: -5px;
-  }
-  h4 {
-    font-size: 50px;
-  }
-  h5 {
-    font-size: 23px;
-  }
-  .upper p {
-    font-size: 90px;
-  }
-  .upper-img img {
-    width: 100%;
-  }
-  .month, .time {
-    font-size: 14px;
-  }
-  .date {
-    font-size: 29px;
-  }
-  h3 {
-    font-size: 60px;
-  }
-}
-@media (max-width:991px) {
-  body {
-    font-size: 14px;
-  }
-  #header {
-    background: #66bfba;
-  }
-  .menu-item-has-children {
-    margin-top: -5px;
-  }
-  .header-menu .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-  }
-  .navbar-toggler:focus, .navbar-toggler:hover {
-    outline: none;
-  }
-  nav ul {
-    margin-top: 3px;
-  }
-  nav ul li {
-    margin-right: 0;
-    font-size: 12px;
-    margin-top: 7px;
-  }
-  .menu-item-has-children {
-    margin-top: 0;
-  }
-  .menu-item-has-children .sub-menu {
-    display: none;
-  }
-  .menu-item-has-children:hover > .sub-menu {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    .second-menu .menu-item-has-children:hover > .sub-menu {
-      display: block;
-      visibility: visible;
-      opacity: 1;
-    }
-  }
-  .menu-item-has-children .sub-menu .second-menu {
-    margin: 15px 0;
-  }
-  .menu-item-has-children .sub-menu p {
-    margin-bottom: 0;
-  }
-  h4 {
-    font-size: 45px;
-  }
-  h5 {
-    font-size: 20px;
-  }
-  .upper {
-    margin-top: -246px;
-  }
-  .upper p {
-    font-size: 60px;
-  }
-  .cont_afisha h2 {
-    font-size: 37px;
-  }
-  .text-center {
-    padding: 0 6px;
-  }
-  .date {
-    font-size: 24px;
-    border: 3px solid #8770ab;
-  }
-  .afisha h3 {
-    font-size: 24px;
-  }
-  .ye-buttton {
-    font-size: 13px;
-  }
-  .cont_afisha img {
-    margin-top: 29px;
-  }
-  .form-send input {
-    padding: 15px 25px;
-  }
-  .submit {
-    font-size: 18px !important;
-  }
-  .link-order {
-    font-size: 21px;
-  }
-  .viber {
-    font-size: 16px;
-  }
-  .bg-trigger h4 {
-    font-size: 31px;
-  }
-  .filter_white p {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 49px;
-  }
-}
-@media (max-width: 767px) {
-  .trigger {
-    margin-top: 15px;
-  }
-  .trigger:first-child {
-    margin-top: 0;
-  }
-  .upper-img {
-    display: none;
-  }
-  .cont_afisha img {
-    margin-top: 0;
-  }
-  .afisha h3 {
-    font-size: 32px;
-  }
-  .form-send input {
-    margin-top: 10px;
-  }
-  .submit {
-    margin-top: 30px!important;
-  }
-  #blue .jq-selectbox {
-    margin: 25px 0px;
-  }
-  .filter_white {
-    text-align: center;
-  }
-  .filter_white ul li {
-    text-align: left;
-  }
-}
-@media (min-width:320px) and (max-width:543px) {
-  .cont_afisha h2 {
-    text-align: left !important;
-    font-size: 38px;
-  }
-  .upper {
-    display: none;
-  }
-  #header {
-    padding-bottom: 30px;
-  }
-  .cont_afisha {
-    margin-top: -36px;
-  }
-  .form-send {
-    padding: 12px;
-    margin-top: 18px;
-  }
-  .form-send input {
-    text-transform: none;
-    padding: 13px 6px;
-    margin-top: 8px;
-  }
-  .link-order {
-    font-size: 18px;
-    margin-top: 27px;
-  }
-
-  h3 {
-    font-size: 55px;
-  }
-  #yellow {
-    padding: 30px 0px;
-  }
-  .hide {
-    display: none;
-  }
-  #violet-section {
-    padding-top: 30px;
-  }
-  h1 {
-    font-size: 60px;
-  }
-  #blue .jq-selectbox {
-    margin: 8px 0px;
-  }
-  #grey {
-    padding: 30px 0px;
-  }
-  #blue {
-    padding: 30px 0px;
-  }
 }
