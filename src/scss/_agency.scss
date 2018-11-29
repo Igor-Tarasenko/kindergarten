@@ -125,10 +125,21 @@ nav ul li a:hover{
 .menu-item-has-children .sub-menu ul li {
   background: url("../img/circle.png") no-repeat;
   background-position: 0 8px;
+	display: block;
   padding-left: 19px;
   margin-top: 10px;
   margin-right: 0;
   font-size: 14px;
+	&:first-child {
+      background: url(../img/star.png) no-repeat left top;
+      margin-left: -9px;
+      padding-left: 26px;
+      background-size: 20px;
+      a {
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+	}
 }
 
 .menu-item-has-children .sub-menu ul li a {
