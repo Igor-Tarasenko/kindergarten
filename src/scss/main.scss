@@ -85,7 +85,7 @@ h5{
 	background: #8770ab;
 }
 
-.ye-buttton {
+.ye-buttton, .viol_butt {
 	border: 3px solid #fff;
 	border-radius: 30px;
 	background: #fdc10f;
@@ -97,11 +97,15 @@ h5{
 	display: inline-block;
 }
 
-.ye-buttton:hover {
+.ye-buttton:hover, .viol_butt:hover {
 	background: #8770ab;
 }
 
-.wh-button, .ye-buttton {
+.viol_butt {
+	font-size: 14px;
+}
+
+.wh-button, .ye-buttton, .viol_butt {
 	margin:10px auto;
 	display: inline-block;
 }
