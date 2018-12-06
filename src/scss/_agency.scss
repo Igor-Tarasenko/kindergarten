@@ -261,6 +261,7 @@ nav ul li a:hover{
   font-size: 14px;
   color:#000;
   padding: 15px 35px;
+  width: 100%;
 }
 
 .submit {
@@ -275,6 +276,8 @@ nav ul li a:hover{
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
+  max-width: 320px;
+  cursor: pointer;
 }
 
 .submit:hover {

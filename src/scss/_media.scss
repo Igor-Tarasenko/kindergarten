@@ -305,6 +305,16 @@
 	.occupation-block .reviews button {
 		font-size: 12px;
 	}
+	.title-occupation {
+		.month {
+			margin-top: 0;
+			display: block;
+			font-size: 10px;
+		}
+		h3 {
+			font-size: 33px;
+		}
+	}
 }
 @media (max-width: 430px) {
 	.occupation-block .specifications button {
@@ -317,6 +327,9 @@
 	}
 	.occupation-block .reviews {
 		margin-left: -10px;
+	}
+	.title-occupation h3 {
+		font-size: 28px;
 	}
 }
 @media (max-width: 393px) {
