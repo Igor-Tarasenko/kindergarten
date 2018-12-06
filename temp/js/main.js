@@ -29,7 +29,8 @@ $(document).ready(function() {
         e.preventDefault();
         var value3 = $('.third-select-block-js select').val();
         selectArray.select3 = value3;
-        var ajaksLine = JSON.stringify(selectArray);
+        var ajaksLine = $.param(selectArray);
+        console.log(ajaksLine);
     });
     $('.specifications').click(function () {
         $('.specifications, .schedule, .reviews').css({'borderTop' : '14px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
