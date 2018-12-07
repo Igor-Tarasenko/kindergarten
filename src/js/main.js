@@ -45,10 +45,11 @@ $(document).ready(function() {
         $('.reviews').css('border-top', '14px solid #66bfba').find('button').css({'borderTopLeftRadius' : '0'});
     });
 });
+/*
 $(window).scroll(function () {
     var heightBlocks = $("#orange").outerHeight() + $("footer").outerHeight();
     console.log(heightBlocks);
     if ($(window).scrollTop() >= $(document).height() - $(window).height() - heightBlocks) {
         alert("Долистал до конца");
     }
-});
+});*/
