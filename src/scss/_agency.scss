@@ -178,6 +178,48 @@ nav ul li a:hover{
 #afisha {
   background: #fe6e1f;
   padding: 50px 0px;
+  .jq-selectbox {
+    width: 100%;
+  }
+  .jq-selectbox__select {
+    margin-top: 0px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding: 11px 10px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    .jq-selectbox__select-text {
+      background: url(../img/arrow.png) no-repeat right center;
+      padding-right: 17px;
+      text-align: center;
+    }
+    .jq-selectbox__dropdown {
+      position: absolute;
+      top: 100%;
+      background: #fff;
+      border-radius: 5px;
+      left: 0;
+      right: 0;
+      padding: 0 15px;
+      ul {
+        padding-left: 0;
+        margin-bottom: 0;
+        text-align: left;
+        li {
+          cursor: pointer;
+          margin-top: 5px;
+          -webkit-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s;
+          color: #fe6e1f;
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
 }
 
 .upper {
