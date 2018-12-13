@@ -45,11 +45,16 @@ $(document).ready(function() {
         $('.reviews').css('border-top', '5px solid #01c0bb').find('button').css({'borderTopLeftRadius' : '10px'});
     });
 });
-/*
-$(window).scroll(function () {
+var isEvent = false;
+$(window).on('scroll', function () {
     var heightBlocks = $("#orange").outerHeight() + $("footer").outerHeight();
     console.log(heightBlocks);
-    if ($(window).scrollTop() >= $(document).height() - $(window).height() - heightBlocks) {
-        alert("Долистал до конца");
+    if (($(window).scrollTop() >= $(document).height() - $(window).height() - heightBlocks) && !isEvent) {
+        filter2(n);
+        n = n +3;
+        isEvent = true;
+        setTimeout( function() {
+            isEvent = false;
+        }, 1000);
     }
-});*/
+});
