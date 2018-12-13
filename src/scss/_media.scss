@@ -45,7 +45,7 @@
 		font-size: 14px;
 	}
 	#header {
-		background: #66bfba;
+		background: #01c0bb;
 	}
 	.menu-item-has-children {
 		margin-top: -5px;
@@ -209,7 +209,6 @@
 	.occupation-block .schedule button,
 	.occupation-block .reviews button {
 		font-size: 14px;
-		padding: 20px 0;
 	}
 	.occupation-block .specifications button {
 		text-align: left;
@@ -221,13 +220,12 @@
 		font-size: 14px;
 	}
 	.occupation-block .age p:last-child {
-		font-size: 50px;
+		font-size: 24px;
 	}
 	.orange-btn {
 		font-size: 16px;
 	}
 	.occupation-block .form-group input {
-		padding: 15px 0 15px 10px;
 		font-size: 12px;
 	}
 	.occupation-block h2 {
@@ -293,6 +291,9 @@
 	.all-blogs .one-block_text h3 {
 		font-size: 34px;
 	}
+	.occupation-block .form-group p {
+		text-align: center;
+	}
 }
 @media (max-width: 503px) {
 	.occupation-block .specifications button {
@@ -335,6 +336,7 @@
 @media (max-width: 393px) {
 	.occupation-block .specifications button, .occupation-block .schedule button, .occupation-block .reviews button {
 		font-size: 10px;
+		padding: 12px 0;
 	}
 	.occupation-block h2 {
 		font-size: 45px;

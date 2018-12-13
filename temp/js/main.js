@@ -33,16 +33,16 @@ $(document).ready(function() {
         console.log(ajaksLine);
     });
     $('.specifications').click(function () {
-        $('.specifications, .schedule, .reviews').css({'borderTop' : '14px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
-        $('.specifications').css('border-top', '14px solid #fe6e1f').find('button').css({'borderTopLeftRadius' : '0'});
+        $('.specifications, .schedule, .reviews').css({'borderTop' : '5px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
+        $('.specifications').css('border-top', '5px solid #ff6e0b').find('button').css({'borderTopLeftRadius' : '10px'});
     });
     $('.schedule').click(function () {
-        $('.specifications, .schedule, .reviews').css({'borderTop' : '14px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
-        $('.schedule').css('border-top', '14px solid #438fc1').find('button').css({'borderTopLeftRadius' : '0'});
+        $('.specifications, .schedule, .reviews').css({'borderTop' : '5px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
+        $('.schedule').css('border-top', '5px solid #0090c4').find('button').css({'borderTopLeftRadius' : '10px'});
     });
     $('.reviews').click(function () {
-        $('.specifications, .schedule, .reviews').css({'borderTop' : '14px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
-        $('.reviews').css('border-top', '14px solid #66bfba').find('button').css({'borderTopLeftRadius' : '0'});
+        $('.specifications, .schedule, .reviews').css({'borderTop' : '5px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
+        $('.reviews').css('border-top', '5px solid #01c0bb').find('button').css({'borderTopLeftRadius' : '10px'});
     });
 });
 /*
