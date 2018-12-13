@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|M+PLUS+Rounded+1c:300,400,700,800&subset=cyrillic-ext');
 #page-top{
-  background: #438fc1;
+  background: #01c0bb;
   vertical-align: center;
   padding:18px 0px 26px 0px;
   color:#fff;
@@ -194,28 +194,28 @@ nav ul li a:hover{
       padding-right: 17px;
       text-align: center;
     }
-    .jq-selectbox__dropdown {
-      position: absolute;
-      top: 100%;
-      background: #fff;
-      border-radius: 5px;
-      left: 0;
-      right: 0;
-      padding: 0 15px;
-      ul {
-        padding-left: 0;
-        margin-bottom: 0;
-        text-align: left;
-        li {
-          cursor: pointer;
-          margin-top: 5px;
-          -webkit-transition: .3s;
-          -o-transition: .3s;
-          transition: .3s;
-          color: #fe6e1f;
-          &:hover {
-            color: #ffffff;
-          }
+  }
+  .jq-selectbox__dropdown {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+    ul {
+      padding-left: 0;
+      margin-bottom: 0;
+      text-align: left;
+      li {
+        cursor: pointer;
+        margin-top: 5px;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        color: #fe6e1f;
+        &:hover {
+          color: #ffffff;
         }
       }
     }
@@ -487,7 +487,7 @@ nav ul li a:hover{
 }
 
 #orange {
-  background: #fe6e1f;
+  background: #ff6e0b;
   padding: 70px 0px;
 }
 
@@ -497,7 +497,7 @@ nav ul li a:hover{
 }
 
 footer {
-  background: #438fc1;
+  background: #0090c4;
   vertical-align: center;
   padding:18px 0px 26px 0px;
   color:#fff;
