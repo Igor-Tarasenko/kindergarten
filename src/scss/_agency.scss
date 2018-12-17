@@ -1,5 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|M+PLUS+Rounded+1c:300,400,700,800&subset=cyrillic-ext');
+#before-load {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  z-index: 9999;
+  i {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('../img/preloader.gif') no-repeat 50% 50%;
+    margin: -125px 0 0 -75px;
+  }
+}
 #page-top{
   background: #01c0bb;
   vertical-align: center;

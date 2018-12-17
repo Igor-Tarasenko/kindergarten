@@ -2,6 +2,7 @@ function tablet () {
     return window.matchMedia('(max-width: 991px)').matches;
 }
 $(document).ready(function() {
+    $('#before-load').find('i').fadeOut().end().delay(400).fadeOut('slow');
     $('select').styler();
     if (tablet()) {
         $('.arrow-block').click(function () {
@@ -46,15 +47,43 @@ $(document).ready(function() {
     });
 });
 var isEvent = false;
+n = 6;
 $(window).on('scroll', function () {
-    var heightBlocks = $("#orange").outerHeight() + $("footer").outerHeight();
+    var heightBlocks = $("#page-top").outerHeight() + $("#header").outerHeight() + $("#description-block").outerHeight() + $(".blog-information").outerHeight() + ($(".all-blogs").outerHeight() - $(".block-with-all-blog").outerHeight());
     console.log(heightBlocks);
     if (($(window).scrollTop() >= $(document).height() - $(window).height() - heightBlocks) && !isEvent) {
-        filter2(n);
-        n = n +3;
+        console.log("отправляем запрос");
         isEvent = true;
-        setTimeout( function() {
-            isEvent = false;
-        }, 1000);
+        filter2(n);
+        n = n + 3;
     }
 });
+function filter2(a) {
+    console.log('start animate');
+    $("#pre_post").toggleClass("d-none");
+    var data = {
+        action: 'updateMagazines',
+        security: ajax.nonce,
+        filter: a,
+    };
+    $.post(ajax.url, data, function (response) {
+        var json = JSON.parse(response);
+        console.log(json);
+        if (json.success) {
+            console.log('fin');
+            $("#pre_post").toggleClass("d-none");
+            var template = $.templates('#newsTemplate');
+            //console.log(json.data);
+
+            var htmlOut = template.render(json.data);
+
+            $('#magazines').append(htmlOut);
+            isEvent = false;
+        } else {
+            console.log('close send');
+            isEvent = false;
+            //console.log(json);
+            //$('#classes').html('');
+        }
+    });
+}
