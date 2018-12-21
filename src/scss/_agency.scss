@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700i');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|M+PLUS+Rounded+1c:300,400,700,800&subset=cyrillic-ext');
 #before-load {
   position: fixed;
@@ -453,6 +453,7 @@ nav ul li a:hover{
   left: 0;
   right: 0;
   padding: 0 15px;
+  text-align: left;
 }
 #blue .jq-selectbox__dropdown ul {
   padding-left: 0;

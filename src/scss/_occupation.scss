@@ -98,7 +98,7 @@
 			font-weight: 600;
 		}
 	}
-	.teacher {
+	.teacher, .feedback {
 		display: flex;
 		align-items: center;
 		margin-top: 20px;
@@ -110,6 +110,30 @@
 		}
 		p {
 			margin-bottom: 0;
+		}
+	}
+	.feedback {
+		.feedback_text {
+			p {
+				font-size: 16px;
+				font-family: 'Open Sans', sans-serif;
+				font-style: italic;
+			}
+		}
+		.name-author_stars {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			margin-bottom: 5px;
+			img {
+				border-radius: 0;
+				max-width: 96px;
+				max-height: 16px;
+			}
+			p {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+			}
 		}
 	}
 	.form-block {
@@ -178,6 +202,9 @@
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 15px;
+	&:hover {
+		color: #01c0bb;
+	}
 }
 .orange-btn {
 	background: #01c0bb;

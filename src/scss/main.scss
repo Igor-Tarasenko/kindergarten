@@ -12,12 +12,12 @@ a{
 	-webkit-transition: .4s;
 	-o-transition: .4s;
 	transition: .4s;
-	color: #fff;
+	color: #333333;
 }
 
 a:hover{
 	text-decoration: none;
-	color: #fff;
+	color: #333333;
 }
 .fab{
 	font-size: 32px;
@@ -78,6 +78,7 @@ h5{
 .wh-button:hover {
 	border: 3px solid #8770ab;
 	background: #8770ab;
+	color: #ffffff;
 }
 
 .ye-buttton, .viol_butt {
@@ -94,6 +95,7 @@ h5{
 
 .ye-buttton:hover, .viol_butt:hover {
 	background: #8770ab;
+	color:#fff;
 }
 
 .viol_butt {
