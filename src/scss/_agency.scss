@@ -23,6 +23,12 @@
   vertical-align: center;
   padding:18px 0px 26px 0px;
   color:#fff;
+  a {
+    color: #ffffff;
+    &:hover {
+      color: #ffffff;
+    }
+  }
 }
 
 #info {

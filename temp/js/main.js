@@ -45,6 +45,7 @@ $(document).ready(function() {
         $('.specifications, .schedule, .reviews').css({'borderTop' : '5px solid transparent'}).find('button').css({'borderTopLeftRadius' : '15px'});
         $('.reviews').css('border-top', '5px solid #01c0bb').find('button').css({'borderTopLeftRadius' : '10px'});
     });
+    $('.form-block .wpcf7').addClass('row');
 });
 var isEvent = false;
 n = 6;
