@@ -528,8 +528,14 @@ footer {
   vertical-align: center;
   padding:18px 0px 26px 0px;
   color:#fff;
-  .fa-facebook, .fa-instagram, .fa-viber, a {
+  .fa-facebook, .fa-instagram, .fa-viber {
     color: #ffffff;
+  }
+  a {
+    color: #ffffff;
+    &:hover {
+      color: #ffffff;
+    }
   }
 }
 .sbi_header_text {
