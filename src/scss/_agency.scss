@@ -19,7 +19,7 @@
   }
 }
 #page-top{
-  background: #01c0bb;
+  background: #0090c4;
   vertical-align: center;
   padding:18px 0px 26px 0px;
   color:#fff;
@@ -199,6 +199,14 @@ nav ul li a:hover{
   margin: 0px 4px;
 }
 
+#description-block {
+  h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 81px;
+    font-weight: bold;
+  }
+}
+
 #afisha {
   background: #fe6e1f;
   padding: 50px 0px;
@@ -359,6 +367,11 @@ nav ul li a:hover{
   text-decoration: underline;
   margin-top: 40px;
   display: inline-block;
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
 }
 
 .viber {
